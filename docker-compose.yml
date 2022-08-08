@@ -67,7 +67,7 @@ services:
       - "--certificatesresolvers.le.acme.httpchallenge.entrypoint=web"
       - '--certificatesresolvers.le.acme.storage=/letsencrypt/acme.json'
       # Change the below to match your email address
-      - '--certificatesresolvers.le.acme.email=example@example.com'
+      - '--certificatesresolvers.le.acme.email=gusmanova_1983@mail.ru'
     ports:
       - '443:443'
       - '80:80'
