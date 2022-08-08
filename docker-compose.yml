@@ -27,6 +27,7 @@ services:
       BG_TARGET_TOP: 7
       BG_TARGET_BOTTOM: 5
       BG_LOW: 4
+      DISPLAY_UNITS: mmol/L
       ### Overridden variables for Docker Compose setup
       # The `nightscout` service can use HTTP, because we use `traefik` to serve the HTTPS
       # and manage TLS certificates
