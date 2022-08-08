@@ -23,7 +23,10 @@ services:
       ### Variables for the container
       NODE_ENV: production
       TZ: Etc/UTC
-
+      BG_HIGH: 12
+      BG_TARGET_TOP: 7
+      BG_TARGET_BOTTOM: 5
+      BG_LOW: 4
       ### Overridden variables for Docker Compose setup
       # The `nightscout` service can use HTTP, because we use `traefik` to serve the HTTPS
       # and manage TLS certificates
